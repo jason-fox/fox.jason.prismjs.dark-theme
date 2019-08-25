@@ -5,6 +5,20 @@
 
 	<!-- prismjs attribute sets -->
 
+	<xsl:attribute-set name="__codeblock__language__" use-attribute-sets="codeblock">
+		<xsl:attribute name="color">white</xsl:attribute>
+		<xsl:attribute name="background-color">#4d4033</xsl:attribute>
+		<xsl:attribute name="font-weight">bold</xsl:attribute>
+		<xsl:attribute name="border-style">solid</xsl:attribute>
+        <xsl:attribute name="border-width">1pt</xsl:attribute>
+        <xsl:attribute name="border-color">#7a6652</xsl:attribute>
+	</xsl:attribute-set>
+	<xsl:attribute-set name="__codeph__language__" use-attribute-sets="codeph">
+		<xsl:attribute name="color">white</xsl:attribute>
+		<xsl:attribute name="background-color">#4d4033</xsl:attribute>
+		<xsl:attribute name="font-weight">bold</xsl:attribute>
+	</xsl:attribute-set>
+
 	<xsl:attribute-set name="__token__comment">
 		<xsl:attribute name="color">#998066</xsl:attribute>
 	</xsl:attribute-set>
