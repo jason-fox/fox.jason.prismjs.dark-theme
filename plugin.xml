@@ -9,4 +9,6 @@
 	<require plugin="fox.jason.prismjs"/>
 	<!-- Uses the extended CSS extension point -->
 	<feature extension="extend.css.process.pre" value="prismjs.override.css"/>
+	<!-- PDF extension point -->
+	<feature extension="dita.xsl.xslfo" value="xsl/xslfo.xsl" type="file"/>
 </plugin>
