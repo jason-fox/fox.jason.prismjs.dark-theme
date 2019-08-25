@@ -14,13 +14,7 @@
 
     <xsl:include href="../cfg/fo/attrs/prismjs-attr.xsl"/>
 
-     <xsl:template name="processThemeAttrSetReflection">
-        <xsl:param name="attrSet"/>
-        <xsl:param name="path"/>
-        <xsl:apply-templates select="document($path)//xsl:attribute-set[@name = $attrSet]"/>
-    </xsl:template>
-
-  <xsl:template match="*[contains(@class,' topic/ph ') and contains(@outputclass, 'token')]">
+    <xsl:template match="*[contains(@class,' topic/ph ') and contains(@outputclass, 'token')]">
         <fo:inline xsl:use-attribute-sets="__codeph__language__">
             <xsl:call-template name="commonattributes"/>
             <xsl:call-template name="processPrismAttrSetReflection">
