@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><!--ant--><!--
+<?xml version="1.0" encoding="UTF-8"?><!--ant-->
+<!--
 	This file is part of the DITA-OT Prism-JS - Dark Theme CSS Plug-in project.
 	See the accompanying LICENSE file for applicable licenses.
---><project name="fox.jason.prismjs.dark-theme">
-
+-->
+<project name="fox.jason.prismjs.dark-theme">
 	<target name="prismjs.override.css">
 		<property name="prismjs.css.file" value="${dita.plugin.fox.jason.prismjs.dark-theme.dir}/resource/prism-dark.css"/>
 	</target>

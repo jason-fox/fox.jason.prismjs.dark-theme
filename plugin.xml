@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="dita-ot/plugin.rnc" type="application/relax-ng-compact-syntax"?>
+<!--
+	This file is part of the DITA-OT Prism-JS - Dark Theme CSS Plug-in project.
+	See the accompanying LICENSE file for applicable licenses.
+-->
 <plugin id="fox.jason.prismjs.dark-theme" version="1.0.0">
 	<feature extension="ant.import" file="process_dark_theme.xml"/>
 	<!--
-		This plugin requires the XMLTask lib PrismJS and extended CSS plugins
+		This plugin requires the PrismJS and extended CSS plugins
 	-->
 	<require plugin="fox.jason.extend.css"/>
 	<require plugin="fox.jason.prismjs"/>

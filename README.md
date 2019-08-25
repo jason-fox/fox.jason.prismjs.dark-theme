@@ -45,6 +45,7 @@ rm dita-ot-3.3.zip
 -   Run the plug-in installation commands:
 
 ```console
+dita --install https://github.com/doctales/org.doctales.xmltask/archive/master.zip
 dita --install https://github.com/jason-fox/fox.jason.extend.css/archive/master.zip
 dita --install https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
 dita --install https://github.com/jason-fox/fox.jason.prismjs.dark-theme/archive/master.zip
