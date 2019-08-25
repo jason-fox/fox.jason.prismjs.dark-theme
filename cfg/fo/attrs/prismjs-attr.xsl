@@ -17,6 +17,10 @@
 		<xsl:attribute name="color">white</xsl:attribute>
 		<xsl:attribute name="background-color">#4d4033</xsl:attribute>
 		<xsl:attribute name="font-weight">bold</xsl:attribute>
+		<xsl:attribute name="padding-top">1pt</xsl:attribute>
+    	<xsl:attribute name="padding-bottom">1pt</xsl:attribute>
+    	<xsl:attribute name="padding-start">1pt</xsl:attribute>
+    	<xsl:attribute name="padding-end">1pt</xsl:attribute>
 	</xsl:attribute-set>
 
 	<xsl:attribute-set name="__token__comment">
