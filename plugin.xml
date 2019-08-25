@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dita-ot/plugin.rnc" type="application/relax-ng-compact-syntax"?>
+<plugin id="fox.jason.prismjs.dark-theme" version="1.0.0">
+	<feature extension="ant.import" file="process_dark_theme.xml"/>
+	<!--
+		This plugin requires the XMLTask lib PrismJS and extended CSS plugins
+	-->
+	<require plugin="fox.jason.extend.css"/>
+	<require plugin="fox.jason.prismjs"/>
+	<!-- Uses the extended CSS extension point -->
+	<feature extension="extend.css.process.pre" value="prismjs.override.css"/>
+</plugin>
