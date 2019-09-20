@@ -5,7 +5,8 @@
 
 This is a CSS Theme [DITA-OT Plug-in](https://www.dita-ot.org/plugins) to amend the look-and-feel of highlighted `<codeblock>` elements. It extends the existing [DITA-OT Prism-JS plug-in](https://github.com/jason-fox/fox.jason.prismjs) to amend the CSS colors. It can be used as a template for other themes.
 
-# Table of Contents
+<details>
+<summary><strong>Table of Contents</strong></summary>
 
 -   [Install](#install)
     -   [Installing DITA-OT](#installing-dita-ot)
@@ -13,12 +14,14 @@ This is a CSS Theme [DITA-OT Plug-in](https://www.dita-ot.org/plugins) to amend 
 -   [Usage](#usage)
 -   [License](#license)
 
-# Install
+</details>
+
+## Install
 
 The DITA-OT Dark Theme CSS plug-in has been tested against [DITA-OT 3.x](http://www.dita-ot.org/download). It is
 recommended that you upgrade to the latest version.
 
-## Installing DITA-OT
+### Installing DITA-OT
 
 <a href="https://www.dita-ot.org"><img src="https://www.dita-ot.org/images/dita-ot-logo.svg" align="right" height="55"></a>
 
@@ -40,7 +43,7 @@ unzip -q dita-ot-3.3.4.zip
 rm dita-ot-3.3.4.zip
 ```
 
-## Installing the Plug-in
+### Installing the Plug-in
 
 -   Run the plug-in installation commands:
 
@@ -55,7 +58,7 @@ The `dita` command line tool requires no additional configuration.
 
 ---
 
-# Usage
+## Usage
 
 Run any HTML dita transform e.g.:
 
@@ -88,7 +91,7 @@ The `cfg/fo/attrs/prismjs-attr.xsl` provides the colors for the PDF output. The 
 file.
 
 
-# License
+## License
 
 [Apache 2.0](LICENSE) © 2019 Jason Fox
 
