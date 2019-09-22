@@ -5,7 +5,7 @@
 
 This is a CSS Theme [DITA-OT Plug-in](https://www.dita-ot.org/plugins) to amend the look-and-feel of highlighted `<codeblock>` elements. It extends the existing [DITA-OT Prism-JS plug-in](https://github.com/jason-fox/fox.jason.prismjs) to amend the CSS colors. It can be used as a template for other themes.
 
-> > ![](https://jason-fox.github.io/fox.jason.prismjs/highlighted-dark.png)
+> ![](https://jason-fox.github.io/fox.jason.prismjs/highlighted-dark.png)
 
 <details>
 <summary><strong>Table of Contents</strong></summary>
