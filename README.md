@@ -2,6 +2,7 @@
 
 [![license](https://img.shields.io/github/license/jason-fox/fox.jason.prismjs.dark-theme.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![DITA-OT 3.3](https://img.shields.io/badge/DITA--OT-3.3-blue.svg)](http://www.dita-ot.org/3.3/)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fox.jason.prismjs.dark-theme&metric=alert_status)](https://sonarcloud.io/dashboard?id=fox.jason.prismjs.dark-theme)
 
 This is a CSS Theme [DITA-OT Plug-in](https://www.dita-ot.org/plugins) to amend the look-and-feel of highlighted `<codeblock>` elements. It extends the existing [DITA-OT Prism-JS plug-in](https://github.com/jason-fox/fox.jason.prismjs) to amend the CSS colors to align with the [Dark Theme](https://github.com/PrismJS/prism/blob/master/themes/prism-dark.css) from [Prism](https://prismjs.com/). It can be used as a template for switching to other themes.
 
