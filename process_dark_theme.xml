@@ -8,7 +8,7 @@
 	<target name="prismjs.override.css">
 		<property
       name="prismjs.css.file"
-      value="${dita.plugin.fox.jason.prismjs.dark-theme.dir}/resource/prism-dark.css"
+      value="${dita.plugin.fox.jason.prismjs.dark-theme.dir}/css/prism-dark.css"
     />
 	</target>
 </project>
