@@ -4,7 +4,7 @@
 	This file is part of the DITA-OT Prism-JS - Dark Theme CSS Plug-in project.
 	See the accompanying LICENSE file for applicable licenses.
 -->
-<plugin id="fox.jason.prismjs.dark-theme" version="1.0.1">
+<plugin id="fox.jason.prismjs.dark-theme" version="1.0.2">
 	<feature extension="ant.import" file="process_dark_theme.xml"/>
 	<!--
 		This plugin requires the PrismJS and extended CSS plugins
